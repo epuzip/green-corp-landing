@@ -44,6 +44,11 @@ button {
     background-size: cover;
 }
 
+.about__images {
+    display: flex;
+    flex-direction: column;
+}
+
 .about__image {
     width: 500px;
 }
@@ -68,6 +73,11 @@ button {
 }
 .about__info {
     max-width: 550px;
+}
+.form form {
+    display: grid;
+    grid-gap: 20px;
+    margin-top: 60px;
 }
 .form__container {
     width: 550px;
@@ -117,4 +127,9 @@ select {
 }
 input {
     outline: none;
+}
+button:hover {
+    background-color: #f6980c;
+    transition: 3s ease-in;
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
 }
